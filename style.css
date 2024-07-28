@@ -72,3 +72,174 @@ p.user-name-text {
     padding-top: 85px;
 }
 
+.footer-button {
+    background-color: #2D2D2D;
+    width: 235px;
+    height: 80px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+input.form-control {
+    background-color: #F3F3F3;
+    color: #2D2D2D;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+textarea.form-control {
+    background-color: #F3F3F3;
+    color: #2D2D2D;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+
+.hero-section-bg {
+    background-color: #F9E6F0;
+    width: 1349px;
+    height: 537.52px;
+}
+
+.header-left-section {
+    padding-top: 155px;
+    padding-left: 102px;
+}
+
+.bio-section {
+    padding-top: 153px;
+    width: 500px;
+}
+
+.hero-section {
+    padding-left: 112px;
+}
+
+
+p.colored-text-1 {
+    background-color: #009379;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+p.colored-text-2 {
+    background-color: #009379;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.content-colored-text-1 {
+    padding-top: 55px;
+}
+
+/* .content-section {
+    padding: 161px;
+} */
+
+
+.content-section {
+    padding: 161px;
+    padding-bottom: 0px;
+}
+.horizontal-row-section-2 {
+    min-height: 127px;
+    /* margin-top: -13px; */
+    margin-bottom: 1px;
+}
+
+/* media queries */
+@media screen and (max-width:375px) {
+    button.navbar-toggler {
+        margin-right: -138px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding-top: 24px;
+    }
+
+    .small-text {
+        text-align: center;
+        padding-top: 47px;
+        font-size: 20px;
+        width: 472px;
+        padding-right: 204px;
+    }
+
+    .hero-section .heading-text h1 {
+        font-size: 80px;
+        display: none;
+    }
+
+    .hero-section .heading-text::after {
+        text-align: center;
+        font-weight: 700;
+        font-size: 65px;
+        content: "Visual Designer";
+    }
+
+    .small-text-2 small {
+        display: none;
+    }
+
+    .small-text-2::after {
+        font-size: 17px;
+        content: "This is a template figma file turned into code using Anima. Learn more at AnimaApp.com";
+    }
+
+    .hero-section-bg {
+        height: 797.52px;
+    }
+
+    .bio-section {
+        text-align: left;
+        padding-top: 101px;
+        width: 339px;
+    }
+
+    .header-left-section {
+        padding-top: 155px;
+        padding-left: 0px;
+    }
+
+    .content-section {
+        width: 500px;
+        margin-left: 18px;
+        padding-top: 92px;
+        padding: 63px;
+        padding-bottom: 0px;
+    }
+
+    .footer-section {
+        margin-left: 95px;
+    }
+
+    .company-logo-section.my-5 {
+        padding-left: 188px;
+    }
+
+    .logo-section {
+        padding: 14px;
+    }
+
+    .horizontal-line {
+        width: 524px;
+        padding-right: 269px;
+    }
+
+    .image-section {
+        padding-left: 216px;
+    }
+
+    p.paragraph-text.text-center {
+        width: 344px;
+        margin-left: -92px;
+    }
+
+    h3.heading-text.text-center.my-5 {
+        width: 400px;
+        padding-right: 265px;
+    }
+}
