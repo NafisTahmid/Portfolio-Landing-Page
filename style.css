@@ -1,0 +1,74 @@
+* {
+    font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.heading-text h1 {
+   
+    font-size: 80px;
+}
+
+.company-logos {
+    margin: 39px 0;
+}
+
+.image-placeholders {
+    margin-top: 156px;
+}
+
+p.paragraph-text.text-center {
+    width: 344px;
+    margin-left: 39px;
+}
+
+.latest-work-heading {
+    margin-top: 160px;
+}
+
+.latest-work {
+    margin-top: 60px;
+}
+
+.latest-work-text {
+    padding-top: 34px;
+    padding-left: 54px;
+}
+
+.box {
+    width: 315px;
+    height: 344px;
+    background-color: #FFFCF5;
+    border: 2px solid #FFD285;
+    margin-top: 61px;
+}
+
+.box .text-section {
+    width: 311px;
+    text-align: center;
+    padding: 33px;
+}
+
+.review-section {
+    padding-left: 26px;
+    padding-top: 64px;
+}
+
+.user-rating {
+    padding-left: 17px;
+}
+
+p.user-name-text {
+    width: 123px;
+}
+
+.client-section {
+    margin-left: 41px;
+}
+
+.client-section-heading {
+    padding-top: 85px;
+}
+
